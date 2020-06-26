@@ -1,20 +1,20 @@
 # packages-laravel
 
-### AdminLTE
+### AdminLTE 3
 
 Info: Add AdminLTE to the project.
 
 Docs: https://github.com/jeroennoten/Laravel-AdminLTE
 
-Install:
-  I: composer require jeroennoten/laravel-adminlte
-  II: composer require laravel/ui (Laravel 7)
-  III: php artisan ui:controllers (Laravel 7)
-  IV: php artisan adminlte:install
+**Install**
+  - > composer require jeroennoten/laravel-adminlte
+  - > composer require laravel/ui (Laravel 7)
+  - > php artisan ui:controllers (Laravel 7)
+  - > php artisan adminlte:install
   
-- Views authenticate  
-  I: php artisan adminlte:install --only=auth_views
+**Views authenticate**
+  - > php artisan adminlte:install --only=auth_views
   
-- Others
-  I: php artisan adminlte:install --only=config (Pubish config)
-  II: php artisan adminlte:install --only=main_views (Customize view)
+**Others**
+  - > php artisan adminlte:install --only=config (Pubish config)
+  - > php artisan adminlte:install --only=main_views (Customize view)
