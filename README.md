@@ -18,3 +18,13 @@ Docs: https://github.com/jeroennoten/Laravel-AdminLTE
 **Others**
   - > php artisan adminlte:install --only=config (Pubish config)
   - > php artisan adminlte:install --only=main_views (Customize view)
+
+
+### SweetAlert2
+
+Info: Alerts and toasts.
+
+Docs: https://realrashid.github.io/sweet-alert
+
+**Install**
+  - > composer require realrashid/sweet-alert
